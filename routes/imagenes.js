@@ -9,7 +9,7 @@ const path = require('path');
 var app = express();
 
 // ==========================================
-// Obtener todos los medicos
+// Mostrar imagenes
 // ==========================================
 
 app.get('/:tipo/:img', (req, res, next) => {
